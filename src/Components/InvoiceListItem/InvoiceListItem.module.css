@@ -1,0 +1,38 @@
+.invoice {
+  padding: 1em;
+  background-color: #897BAF;
+  display: flex;
+  flex-direction: row;
+}
+
+.firstRow, .secondRow, .controls {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.firstRow > div, .secondRow > div {
+  margin: 0.1em;
+  align-self: flex-start;
+}
+
+.controls {
+  justify-content: space-around;
+}
+
+.button {
+  padding: 0.8em;
+  background-color: #423075;
+  color: #eee;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #281758;
+}
+
+.emphasis {
+  font-weight: bold;
+}

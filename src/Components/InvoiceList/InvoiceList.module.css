@@ -1,0 +1,24 @@
+.invoiceList {
+  background-color: #625192;
+  display: flex;
+  flex-direction: column;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeader {
+  color: #eee;
+  background-color: #281758;
+  font-size: xx-large;
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+.sectionHeader {
+  color: #14063A;
+  font-size: x-large;
+  padding: 0.5em;
+}
